@@ -1,0 +1,21 @@
+nav {
+    display:flex;
+    justify-content:space-between;
+
+}
+nav ul{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+nav ul li{
+    list-style-type:none;
+    margin-right: 55px;
+}
+#logo img{
+    display:flex;
+    margin: 15px;
+    width: 100px;
+    
+}
