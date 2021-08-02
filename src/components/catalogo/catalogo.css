@@ -1,0 +1,46 @@
+#catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#catalogo > P {
+    width: 1000px;
+    font-size: 20px;
+    text-align: center;
+}
+#catalogoproducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.catalogoProducto{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.catalogoProducto img{
+    display: flex;
+    justify-self: center;
+    position: absolute;
+    width: 100%;
+    
+}
+.catalogoProducto::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.catalogoProducto p {
+    position: absolute;
+    font-size: 25px;
+    z-index: 3;
+    color: white;
+}

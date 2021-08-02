@@ -1,0 +1,26 @@
+#provedoresIMG{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.provedores-wraper{
+    width: 160px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#provedores h2{
+    display: flex;
+    justify-content: center;
+}
+#provedores p {
+    font-size: 20px;
+    text-align: center;
+
+}
+.provedores-wraper>img{
+ width: 100%;    
+}

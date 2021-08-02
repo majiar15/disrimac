@@ -1,0 +1,41 @@
+
+footer{
+    
+    background: #0A0E39;
+    color: white;
+    
+    
+}
+.container-footer{
+    margin: auto 0px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+.container-footer .sobreNosotros{
+    width: 500px;
+    margin-right: 10px;
+}
+.container-footer h3{
+    margin-bottom: 10px;
+}
+.container-footer .center{
+    width: 400px;
+    display: flex;
+    align-content: center;
+
+}
+.center{
+    display: flex;
+    justify-content: baseline;
+}
+.center i{
+    color:  #ffef14;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.center h3{
+    display: none;
+}
