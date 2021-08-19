@@ -12,6 +12,11 @@ nav ul{
 nav ul li{
     list-style-type:none;
     margin-right: 55px;
+    cursor:pointer;
+}
+nav ul li .link{
+    text-decoration: none;
+    color: black;
 }
 #logo img{
     display:flex;

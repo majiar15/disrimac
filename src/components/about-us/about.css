@@ -1,0 +1,52 @@
+#nuestra-historia{
+    text-align: center;
+    color: rgb(1, 188, 243);
+}
+#title-nuestros-inicios{
+    color: rgb(1, 188, 243);
+    font-size: 25px;
+    line-break: auto;
+
+}
+
+#historia p{
+    width: 50%;
+    text-align: justify;
+}
+#historia{
+    
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 45px;
+}
+
+#inicios img{
+    width:500px;
+    border-radius: 17px;
+}
+#inicios p{
+    width:35%;
+    font-size:20px;
+   
+}
+#inicios{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom: 60px;
+
+}
+#nuestos-inicios img{
+    width:500px;
+    border-radius: 20px;
+}
+#nuestos-inicios p{
+    width:40%;
+    text-align: justify;
+}
+#nuestos-inicios{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom: 60px;
+
+}

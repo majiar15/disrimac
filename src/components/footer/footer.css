@@ -9,7 +9,7 @@ footer{
 .container-footer{
     margin: auto 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 30px;
 
 }

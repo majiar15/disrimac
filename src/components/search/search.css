@@ -29,17 +29,18 @@
 }
 #search input[type="text"]{
     width: 50%;
-    padding: 15px;
+    padding: 15px 0px 15px 15px;
     font-size: 15px;
-    
-    
     border: 0px;
-    margin-right: 5px;
+    
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
     outline:none;
 }
-#search input[type="submit"]{
-    font-size: 15px;
-    border: 0px;
-    
-    outline:none;
+#search #icoSearch{
+    height: 50px;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor:pointer;
 }
