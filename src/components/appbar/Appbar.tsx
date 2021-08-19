@@ -9,10 +9,10 @@ const Appbar = () => {
                 <img src={logo} alt="LogoDismac" />
             </div>
             <ul>
-                    <li><Link className="link"to="/">Inicio</Link></li>
-                    <li><Link className="link"to="/">Puntos De Venta</Link></li>
-                    <li><Link className="link"to="/about">Sobre Nosotros</Link></li>
-                    <li><Link className="link"to="/contact">Contacto</Link></li>
+                    <li><Link className="link"to="disrimac/">Inicio</Link></li>
+                    <li><Link className="link"to="disrimac/">Puntos De Venta</Link></li>
+                    <li><Link className="link"to="disrimac/about">Sobre Nosotros</Link></li>
+                    <li><Link className="link"to="disrimac/contact">Contacto</Link></li>
               
             </ul>
         </nav>
