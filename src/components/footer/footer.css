@@ -39,3 +39,7 @@ footer{
 .center h3{
     display: none;
 }
+
+footer h3{
+    color: rgb(1, 188, 243);
+}
