@@ -19,10 +19,16 @@ function App() {
       <Appbar/>
       <Switch>
         
-        <Route path="/about">
+        <Route path="/disrimac/about">
           <About />
         </Route>
 
+        <Route path="/disrimac/">
+          <Search/>
+          <Catalogo />
+          <Provedores />
+          
+        </Route>
         <Route path="/">
           <Search/>
           <Catalogo />
